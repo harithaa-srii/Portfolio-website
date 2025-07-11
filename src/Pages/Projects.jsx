@@ -21,7 +21,7 @@ export const Projects = () => {
           </p>
           <div className="flex justify-between text-sm font-medium px-1">
             <a
-              href="https://your-live-demo-link"
+              href="https://harithaa-portfolio.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-600 hover:underline"
