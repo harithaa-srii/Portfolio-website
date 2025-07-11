@@ -9,7 +9,7 @@ export const Projects = () => {
       <div className="flex justify-center">
         <div className="max-w-md w-full bg-card rounded-xl shadow-md border border-muted p-6 transition hover:shadow-lg">
           <img
-            src="./src/assets/thumbnails/portfolio-website.jpg"
+            src="/thumbnails/portfolio-website.jpg"
             alt="Portfolio Website"
             className="w-full h-64 object-cover rounded-md mb-6"
           />

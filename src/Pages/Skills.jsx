@@ -1,15 +1,15 @@
-import htmlLogo from "../assets/logos/html-5-svgrepo-com.svg";
-import cssLogo from "../assets/logos/css-svgrepo-com.svg";
-import jsLogo from "../assets/logos/javascript-svgrepo-com.svg";
-import angularLogo from "../assets/logos/angular-icon-logo-svgrepo-com.svg";
-import bootstrapLogo from "../assets/logos/bootstrap-svgrepo-com.svg";
-import reactLogo from "../assets/logos/react-svgrepo-com.svg";
-import gitLogo from "../assets/logos/git-svgrepo-com.svg";
-import githubLogo from "../assets/logos/github-svgrepo-com.svg";
-import figmaLogo from "../assets/logos/figma-svgrepo-com.svg";
-import cppLogo from "../assets/logos/cplusplus.svg";
-import contentLogo from "../assets/logos/documentation-svgrepo-com.svg";
-import techLogo from "../assets/logos/technical-support-service-2-svgrepo-com.svg";
+import htmlLogo from "/logos/html-5-svgrepo-com.svg";
+import cssLogo from "/logos/css-svgrepo-com.svg";
+import jsLogo from "/logos/javascript-svgrepo-com.svg";
+import angularLogo from "/logos/angular-icon-logo-svgrepo-com.svg";
+import bootstrapLogo from "/logos/bootstrap-svgrepo-com.svg";
+import reactLogo from "/logos/react-svgrepo-com.svg";
+import gitLogo from "/logos/git-svgrepo-com.svg";
+import githubLogo from "/logos/github-svgrepo-com.svg";
+import figmaLogo from "/logos/figma-svgrepo-com.svg";
+import cppLogo from "/logos/cplusplus.svg";
+import contentLogo from "/logos/documentation-svgrepo-com.svg";
+import techLogo from "/logos/technical-support-service-2-svgrepo-com.svg";
 
 const skillsData = [
   {
