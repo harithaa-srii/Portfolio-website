@@ -9,12 +9,10 @@ import { DesignWork } from "./Pages/DesignWork";
 import { Contact } from "./Pages/Contact";
 import { NotFound } from "./Pages/NotFound";
 import { ThemeToggle } from "./components/ThemeToggle";
-import { StarBackground } from "./components/StarBackground";
 
 function App() {
   return (
     <>
-      <StarBackground />
       <ThemeToggle />
       <BrowserRouter>
         <NavBar />
