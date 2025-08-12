@@ -1,13 +1,13 @@
 export const Projects = () => {
   const projects = [
     {
-      title: "Portfolio Website",
+      title: "HireLens | An AI Resume Analyzer",
       description:
-        "A responsive personal portfolio built using React and Tailwind CSS. Includes dynamic routing, contact form with Formspree, and a clean modern UI.",
-      techStack: ["React", "Tailwind CSS", "JavaScript"],
-      image: "/thumbnails/portfolio-website.jpg",
-      liveLink: "https://harithaa-portfolio.vercel.app/",
-      sourceCode: "https://github.com/harithaa-srii/Portfolio-website",
+        "Developed a responsive AI-powered resume analysis tool that evaluates resumes against specific job roles by scoring and providing category-wise feedback. Integrated Puter.js for serverless authentication, cloud file storage, and AI model access, eliminating the need for a traditional backend. Delivered an intuitive UI for uploading resumes and job descriptions, with real-time, AI-driven insights to help users optimize their applications.",
+      techStack: ["React", "Tailwind CSS", "TypeScript","Puter.js"],
+      image: "/thumbnails/resume-analyzer.jpg",
+      liveLink: "https://resume-analyzer-gold-one.vercel.app/",
+      sourceCode: "https://github.com/harithaa-srii/resume-analyzer",
     },
     {
       title: "Unity Funds | Crowdfunding Platform",
@@ -41,7 +41,7 @@ export const Projects = () => {
             <h3 className="text-xl font-semibold text-center mb-3">
               {project.title}
             </h3>
-            <p className="text-sm text-muted-foreground text-center mb-4">
+            <p className="text-sm text-muted-foreground text-center mb-4 text-justify">
               {project.description}
             </p>
             <div className="text-sm mb-4 text-center">

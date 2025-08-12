@@ -23,7 +23,7 @@ export const Home = () => {
         </h2>
 
         <p className="max-w-3xl text-sm sm:text-base md:text-lg text-muted-foreground mb-8 px-4">
-          I’m a frontend developer with hands-on experience in building responsive web applications using HTML, CSS, JavaScript, and Angular.
+          I’m a frontend developer with hands-on experience in building responsive web applications using HTML, CSS, JavaScript, Angular, React and NextJS.
           With a strong eye for detail and growing expertise in React and UI/UX design, I focus on creating interfaces that are both functional and user-centric.
           I bring a collaborative spirit, clear communication, and a design-aware mindset to every project I take on.
         </p>
