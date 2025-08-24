@@ -9,6 +9,15 @@ export const Projects = () => {
       liveLink: "https://resume-analyzer-gold-one.vercel.app/",
       sourceCode: "https://github.com/harithaa-srii/resume-analyzer",
     },
+     {
+      title:"FolioForge | Portfolio Website Generator",
+      description:
+      "A full-stack web app that lets users create and deploy professional portfolio websites without coding. Features include SSO authentication, customizable templates, and flexible deployment options (download as ZIP or one-click deploy).",
+      techStack: ["React", "Node.js", "Express", "MongoDB", "OAuth"],
+      image: "/thumbnails/coming-soon.jpg",
+      liveLink: "",
+      sourceCode: "https://github.com/harithaa-srii/portfolio-generator",
+    },
     {
       title: "Unity Funds | Crowdfunding Platform",
       description:
@@ -18,61 +27,65 @@ export const Projects = () => {
       liveLink: "",
       sourceCode: "https://github.com/harithaa-srii/crowdfunding-platform",
     },
+
   ];
 
   return (
-    <section className="min-h-screen px-6 py-12 bg-background text-foreground">
+    <section className="min-h-screen px-4 py-12 bg-background text-foreground">
       <h2 className="text-4xl font-bold text-center mb-4">Projects</h2>
       <p className="text-center text-muted-foreground text-lg mb-10">
         Showcasing the work I’ve done so far.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
-        {projects.map((project, index) => (
-          <div
-            key={index}
-            className="bg-card rounded-xl shadow-md border border-muted p-6 transition hover:shadow-lg"
-          >
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-64 object-contain rounded-md mb-6"
-            />
-            <h3 className="text-xl font-semibold text-center mb-3">
-              {project.title}
-            </h3>
-            <p className="text-sm text-muted-foreground text-center mb-4 text-justify">
-              {project.description}
-            </p>
-            <div className="text-sm mb-4 text-center">
-              <span className="font-medium text-foreground">Tech Stack:</span>{" "}
-              {project.techStack.join(", ")}
-            </div>
-            <div className="flex justify-between text-sm font-medium px-1">
-              {project.liveLink ? (
-                <a
-                  href={project.liveLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-purple-600 hover:underline"
-                >
-                  Live Demo
-                </a>
-              ) : (
-                <span className="text-muted-foreground italic">Live Demo – Coming Soon</span>
-              )}
-              <a
-                href={project.sourceCode}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-purple-600 hover:underline"
-              >
-                Source Code
-              </a>
-            </div>
-          </div>
-        ))}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-7xl mx-auto">
+  {projects.map((project, index) => (
+    <div
+      key={index}
+      className="bg-card rounded-xl shadow-md border border-muted p-6 transition hover:shadow-lg"
+    >
+      <img
+        src={project.image}
+        alt={project.title}
+        className="w-full h-64 object-contain rounded-md mb-6"
+      />
+      <h3 className="text-xl font-semibold text-center mb-3">
+        {project.title}
+      </h3>
+      <p className="text-sm text-muted-foreground text-center mb-4 text-justify">
+        {project.description}
+      </p>
+      <div className="text-sm mb-4 text-center">
+        <span className="font-medium text-foreground">Tech Stack:</span>{" "}
+        {project.techStack.join(", ")}
       </div>
+      <div className="flex justify-between text-sm font-medium px-1">
+        {project.liveLink ? (
+          <a
+            href={project.liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-600 hover:underline"
+          >
+            Live Demo
+          </a>
+        ) : (
+          <span className="text-muted-foreground italic">
+            Live Demo – Coming Soon
+          </span>
+        )}
+        <a
+          href={project.sourceCode}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-purple-600 hover:underline"
+        >
+          Source Code
+        </a>
+      </div>
+    </div>
+  ))}
+</div>
+
     </section>
   );
 };
