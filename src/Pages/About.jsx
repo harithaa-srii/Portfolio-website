@@ -3,42 +3,51 @@ import React from "react";
 export const About = () => {
   return (
     <section className="px-6 py-15 max-w-4xl mx-auto text-center md:text-left">
-      <h2 className="text-4xl font-bold mb-6 text-foreground text-center">About Me</h2>
+      <h2 className="text-4xl font-bold mb-6 text-foreground text-center">
+        About Me
+      </h2>
 
       <p className="text-lg text-muted-foreground leading-relaxed text-justify">
-        I’m <span className="font-semibold text-foreground">Harithaa Srii</span>, a passionate Frontend Developer with{" "}
-        <span className="font-semibold">11 months of professional experience</span> in the IT industry. I specialize in
-        building responsive, user-friendly web interfaces using technologies like{" "}
-        <span className="font-medium">Angular, JavaScript, HTML, and CSS</span>, and I also have beginner-level knowledge in{" "}
-        <span className="font-medium">React and Figma</span>.
+        I’m <span className="font-semibold text-foreground">Harithaa Srii</span>, a{" "}
+        <span className="font-semibold">Web Developer</span> with nearly a year of
+        professional experience in the IT industry. I enjoy building{" "}
+        <span className="font-medium">responsive, scalable, and user-friendly web applications</span>{" "}
+        using modern technologies. My journey began with{" "}
+        <span className="font-medium">Angular and TypeScript</span>, and has expanded
+        into <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>,
+        along with a growing passion for <span className="font-medium">UI/UX design</span>.
       </p>
 
       <p className="text-lg text-muted-foreground leading-relaxed mt-4 text-justify">
-        I graduated with a <span className="font-medium">Bachelor of Technology in Information Technology</span> in 2024, and
-        worked as an <span className="font-medium">Associate Software Engineer at Maplelabs (a unit of Xoriant Corporation)</span>.
-        During my tenure, I contributed to the development of multiple frontend components using Angular, performed internal
-        library integrations, and implemented API integrations for various Sizer applications.
+        I hold a{" "}
+        <span className="font-medium">
+          Bachelor’s degree in Information Technology (2024)
+        </span>{" "}
+        and worked as an{" "}
+        <span className="font-medium">
+          Associate Software Engineer at MapleLabs (a unit of Xoriant Corporation)
+        </span>. During this time, I contributed to building reusable frontend components,
+        integrating APIs, and creating detailed handover documentation to support
+        maintainability.
       </p>
 
       <p className="text-lg text-muted-foreground leading-relaxed mt-4 text-justify">
-        My interest in frontend extended beyond Angular as I started exploring <span className="font-medium">React</span> and
-        gradually developed a strong inclination toward <span className="font-medium">UI/UX Design</span>. I'm currently upskilling
-        in both areas while building personal projects and my portfolio.
+        Beyond development, I’ve also explored{" "}
+        <span className="font-medium">content writing</span>, creating SEO-friendly
+        content during my college days. These experiences sharpened my{" "}
+        <span className="font-medium">communication and documentation skills</span>,
+        which I bring into my work as a developer.
       </p>
 
       <p className="text-lg text-muted-foreground leading-relaxed mt-4 text-justify">
-        Beyond development, I’ve worked as a <span className="font-medium">freelance content writer</span> during my college days,
-        creating SEO-friendly website content for businesses. My strong documentation skills were also evident in the detailed
-        handover documents I prepared during my corporate experience.
-      </p>
-
-      <p className="text-lg text-muted-foreground leading-relaxed mt-4 text-justify">
-        I’m actively seeking roles that focus on <span className="font-semibold">Frontend Development</span> or hybrid roles that
-        blend both <span className="font-semibold">Frontend and UI/UX Design</span>. I thrive in collaborative, fast-paced
-        environments where I can contribute to intuitive, meaningful digital experiences.
+        I’m currently upskilling in{" "}
+        <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>{" "}
+        through personal projects like an AI-powered resume analyzer and a portfolio
+        generator. I’m seeking opportunities in{" "}
+        <span className="font-semibold">Frontend Development</span> or hybrid roles
+        blending <span className="font-semibold">Frontend and Backend</span>, where I
+        can contribute to building intuitive, meaningful digital experiences.
       </p>
     </section>
   );
 };
-
-
