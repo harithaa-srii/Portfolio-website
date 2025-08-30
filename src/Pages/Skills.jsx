@@ -10,17 +10,27 @@ import figmaLogo from "/logos/figma-svgrepo-com.svg";
 import cppLogo from "/logos/cplusplus.svg";
 import contentLogo from "/logos/documentation-svgrepo-com.svg";
 import techLogo from "/logos/technical-support-service-2-svgrepo-com.svg";
+import nextLogo from "/logos/nextjs.png";
+import nodeLogo from "/logos/nodejs.png";
+import expressLogo from "/logos/expressjs.jpg";
+import mongodbLogo from "/logos/mongodb.png";
+
 
 const skillsData = [
   {
-    category: "Frontend Development",
+    category: "Web Development",
     skills: [
       { name: "HTML", level: "Intermediate", logo: htmlLogo },
       { name: "CSS", level: "Intermediate", logo: cssLogo },
       { name: "JavaScript", level: "Intermediate", logo: jsLogo },
       { name: "Bootstrap", level: "Intermediate", logo: bootstrapLogo },
       { name: "Angular", level: "Intermediate", logo: angularLogo },
-      { name: "React", level: "Beginner", logo: reactLogo },
+      { name: "React", level: "Intermediate", logo: reactLogo },
+      {name: "NextJS", level: "Beginner", logo: nextLogo},
+      {name: "NodeJS",level:"Beginner",logo:nodeLogo},
+      {name: "ExpressJS", level:"Beginner", logo:expressLogo},
+      {name: "MongoDB", level:"Beginner", logo:mongodbLogo},
+
     ],
   },
   {
