@@ -9,6 +9,14 @@ export const Projects = () => {
       liveLink: "https://resume-analyzer-gold-one.vercel.app/",
       sourceCode: "https://github.com/harithaa-srii/resume-analyzer",
     },
+    {
+      title:"React Dashboard",
+      description:"Completed a React dashboard assignment featuring interactive charts and geographic maps, delivering 70% of the project requirements within a tight 3-day deadline. The dashboard provides clear data visualizations and is in progress toward full responsiveness across devices.",
+      techStack: ["React", "Tailwind CSS", "Recharts", "Simple maps"],
+      image: "/thumbnails/dashboard.png",
+      liveLink: "https://harithaasrii-reactdashboard.vercel.app/",
+      sourceCode: "https://github.com/harithaa-srii/react-dashboard",
+    },
      {
       title:"FolioForge | Portfolio Website Generator",
       description:
