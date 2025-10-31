@@ -17,6 +17,14 @@ export const Projects = () => {
       liveLink: "https://harithaasrii-reactdashboard.vercel.app/",
       sourceCode: "https://github.com/harithaa-srii/react-dashboard",
     },
+    {
+      title:"2048 - Ice Edition",
+      description:"A themed version of the classic 2048 game, '2048 - Ice Edition' features custom graphics to enhance the gaming experience. Built using React, TypeScript and Tailwind CSS this project showcases my skills in front-end development and game design.",
+      techStack: ["React", "TypeScript", "Tailwind CSS"],
+      image: "/thumbnails/2048.png",
+      liveLink: "https://2048-game-ice-edition.vercel.app/",
+      sourceCode: "https://github.com/harithaa-srii/2048-game"
+    },
      {
       title:"FolioForge | Portfolio Website Generator",
       description:
