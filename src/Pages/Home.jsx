@@ -13,7 +13,7 @@ export const Home = () => {
         {/* Typing Animation */}
         <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-6 h-8">
           <TypeAnimation
-            sequence={["Web Developer", 2000, "UI/UX Designer", 2000]}
+            sequence={["Web Developer", 2000, "UI/UX Designer", 2000,"Content/Technical writer",2000]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
