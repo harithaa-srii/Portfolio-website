@@ -1,3 +1,4 @@
+
 import React from "react";
 
 export const About = () => {
@@ -8,45 +9,24 @@ export const About = () => {
       </h2>
 
       <p className="text-lg text-muted-foreground leading-relaxed text-justify">
-        I’m <span className="font-semibold text-foreground">Harithaa Srii</span>, a{" "}
-        <span className="font-semibold">Web Developer</span> with nearly a year of
-        professional experience in the IT industry. I enjoy building{" "}
-        <span className="font-medium">responsive, scalable, and user-friendly web applications</span>{" "}
-        using modern technologies. My journey began with{" "}
-        <span className="font-medium">Angular and TypeScript</span>, and has expanded
-        into <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>,
-        along with a growing passion for <span className="font-medium">UI/UX design</span>.
+        I’m <span className="font-semibold text-foreground">Harithaa Srii</span>, a developer and communicator who thrives at the intersection of
+        technology, design, and clear documentation. My experience spans building responsive, scalable web applications—using
+        <span className="font-medium"> Angular, React, Next.js, Node.js, and MongoDB</span>—while keeping usability and UI/UX best practices at the forefront.
       </p>
 
       <p className="text-lg text-muted-foreground leading-relaxed mt-4 text-justify">
-        I hold a{" "}
-        <span className="font-medium">
-          Bachelor’s degree in Information Technology (2024)
-        </span>{" "}
-        and worked as an{" "}
-        <span className="font-medium">
-          Associate Software Engineer at MapleLabs (a unit of Xoriant Corporation)
-        </span>. During this time, I contributed to building reusable frontend components,
-        integrating APIs, and creating detailed handover documentation to support
-        maintainability.
+        Alongside my technical work, I have a strong background in <span className="font-medium">content and technical writing</span>.
+        From SEO-driven articles in college to detailed project documentation at MapleLabs, I ensure every solution is not only well-engineered but also thoroughly explained and user-friendly.
       </p>
 
       <p className="text-lg text-muted-foreground leading-relaxed mt-4 text-justify">
-        Beyond development, I’ve also explored{" "}
-        <span className="font-medium">content writing</span>, creating SEO-friendly
-        content during my college days. These experiences sharpened my{" "}
-        <span className="font-medium">communication and documentation skills</span>,
-        which I bring into my work as a developer.
+        I hold a <span className="font-medium">Bachelor’s degree in Information Technology (2024)</span> and have worked as an
+        <span className="font-medium"> Associate Software Engineer</span>, contributing to reusable frontend components, API integrations, and comprehensive handover documentation—bridging the gap between engineering and clear communication.
       </p>
 
       <p className="text-lg text-muted-foreground leading-relaxed mt-4 text-justify">
-        I’m currently upskilling in{" "}
-        <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>{" "}
-        through personal projects like an AI-powered resume analyzer and a portfolio
-        generator. I’m seeking opportunities in{" "}
-        <span className="font-semibold">Frontend Development</span> or hybrid roles
-        blending <span className="font-semibold">Frontend and Backend</span>, where I
-        can contribute to building intuitive, meaningful digital experiences.
+        Currently, I’m advancing my skills through personal projects like an <span className="font-medium">AI-powered resume analyzer</span> and a
+        <span className="font-medium"> portfolio generator</span>, focusing equally on development, UI/UX, and documentation. I’m actively seeking roles that value both my ability to build intuitive digital products and to produce documentation that empowers users and teams.
       </p>
     </section>
   );

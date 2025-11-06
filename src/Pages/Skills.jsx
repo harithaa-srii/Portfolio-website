@@ -7,13 +7,20 @@ import reactLogo from "/logos/react-svgrepo-com.svg";
 import gitLogo from "/logos/git-svgrepo-com.svg";
 import githubLogo from "/logos/github-svgrepo-com.svg";
 import figmaLogo from "/logos/figma-svgrepo-com.svg";
-import cppLogo from "/logos/cplusplus.svg";
+import javaLogo from "/logos/java.png";
 import contentLogo from "/logos/documentation-svgrepo-com.svg";
 import techLogo from "/logos/technical-support-service-2-svgrepo-com.svg";
 import nextLogo from "/logos/nextjs.png";
 import nodeLogo from "/logos/nodejs.png";
 import expressLogo from "/logos/expressjs.jpg";
 import mongodbLogo from "/logos/mongodb.png";
+import typescriptLogo from "/logos/typescript.png";
+import tailwindLogo from "/logos/tailwindcss.png";
+import markdownLogo from "/logos/markdown.png";
+import ditaLogo from "/logos/ditaxml.png";
+import dockerLogo from "/logos/docker.png";
+import awsec2Logo from "/logos/awsec2.png";
+import awsS3Logo from "/logos/awss3.png";
 
 
 const skillsData = [
@@ -23,7 +30,9 @@ const skillsData = [
       { name: "HTML", level: "Intermediate", logo: htmlLogo },
       { name: "CSS", level: "Intermediate", logo: cssLogo },
       { name: "JavaScript", level: "Intermediate", logo: jsLogo },
+      { name: "TypeScript", level: "Intermediate", logo: typescriptLogo },
       { name: "Bootstrap", level: "Intermediate", logo: bootstrapLogo },
+      { name: "Tailwind CSS", level: "Intermediate", logo: tailwindLogo },
       { name: "Angular", level: "Intermediate", logo: angularLogo },
       { name: "React", level: "Intermediate", logo: reactLogo },
       {name: "NextJS", level: "Beginner", logo: nextLogo},
@@ -40,21 +49,32 @@ const skillsData = [
       { name: "GitHub", level: "Intermediate", logo: githubLogo },
     ],
   },
-  {
-    category: "UI/UX Design",
-    skills: [{ name: "Figma", level: "Beginner", logo: figmaLogo }],
-  },
-  {
-    category: "Programming Languages",
-    skills: [{ name: "C++", level: "Intermediate", logo: cppLogo }],
-  },
-  {
+   {
     category: "Writing & Documentation",
     skills: [
       { name: "Content Writing", level: "Beginner", logo: contentLogo },
       { name: "Technical Writing", level: "Beginner", logo: techLogo },
+      { name: "Markdown", level: "Intermediate", logo: markdownLogo },
+      { name: "DITA XML", level: "Beginner", logo: ditaLogo },
     ],
   },
+  {
+    category: "Programming Languages",
+    skills: [{ name: "Java", level: "Intermediate", logo: javaLogo }],
+  },
+  {
+    category: "DevOps & Cloud",
+    skills: [
+      { name: "Docker", level: "Beginner", logo: dockerLogo },
+      { name: "AWS EC2", level: "Beginner", logo: awsec2Logo },
+      { name: "AWS S3", level: "Beginner", logo: awsS3Logo },
+    ],
+  },
+  {
+    category: "UI/UX Design",
+    skills: [{ name: "Figma", level: "Beginner", logo: figmaLogo }],
+  },
+ 
 ];
 
 export const Skills = () => {

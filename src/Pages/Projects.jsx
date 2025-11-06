@@ -53,55 +53,61 @@ export const Projects = () => {
         Showcasing the work I’ve done so far.
       </p>
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-7xl mx-auto">
-  {projects.map((project, index) => (
-    <div
-      key={index}
-      className="bg-card rounded-xl shadow-md border border-muted p-6 transition hover:shadow-lg"
-    >
-      <img
-        src={project.image}
-        alt={project.title}
-        className="w-full h-64 object-contain rounded-md mb-6"
-      />
-      <h3 className="text-xl font-semibold text-center mb-3">
-        {project.title}
-      </h3>
-      <p className="text-sm text-muted-foreground text-center mb-4 text-justify">
-        {project.description}
-      </p>
-      <div className="text-sm mb-4 text-center">
-        <span className="font-medium text-foreground">Tech Stack:</span>{" "}
-        {project.techStack.join(", ")}
-      </div>
-      <div className="flex justify-between text-sm font-medium px-1">
-        {project.liveLink ? (
-          <a
-            href={project.liveLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-purple-600 hover:underline"
+      {/* grid with equal row heights */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-7xl mx-auto auto-rows-fr">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="bg-card rounded-xl shadow-md border border-muted p-6 transition hover:shadow-lg flex flex-col h-full"
           >
-            Live Demo
-          </a>
-        ) : (
-          <span className="text-muted-foreground italic">
-            Live Demo – Coming Soon
-          </span>
-        )}
-        <a
-          href={project.sourceCode}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-purple-600 hover:underline"
-        >
-          Source Code
-        </a>
-      </div>
-    </div>
-  ))}
-</div>
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-64 object-contain rounded-md mb-6"
+            />
 
+            {/* flexible content area so links can sit at bottom */}
+            <div className="flex-1 flex flex-col">
+              <h3 className="text-xl font-semibold text-center mb-3">
+                {project.title}
+              </h3>
+              <p className="text-sm text-muted-foreground mb-4 text-justify">
+                {project.description}
+              </p>
+              <div className="text-sm mb-4 text-center">
+                <span className="font-medium text-foreground">Tech Stack:</span>{" "}
+                {project.techStack.join(", ")}
+              </div>
+
+              {/* links container pushed to bottom */}
+              <div className="flex justify-between text-sm font-medium px-1 mt-auto">
+                {project.liveLink ? (
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-purple-600 hover:underline"
+                  >
+                    Live Demo
+                  </a>
+                ) : (
+                  <span className="text-muted-foreground italic">
+                    Live Demo – Coming Soon
+                  </span>
+                )}
+                <a
+                  href={project.sourceCode}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-600 hover:underline"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };

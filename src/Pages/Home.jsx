@@ -22,12 +22,12 @@ export const Home = () => {
         </h2>
 
         <p className="max-w-3xl text-sm sm:text-base md:text-lg text-muted-foreground mb-8 px-4">
-          I’m a web developer with hands-on experience in building responsive
-          and scalable applications. With a strong eye for detail and growing
-          expertise in UI/UX design, I focus on creating interfaces that are
-          both functional and user-centric. I bring a collaborative spirit,
-          clear communication, and a design-aware mindset to every project I
-          take on.
+         I'm a web developer and aspiring technical writer with hands-on experience in 
+building responsive and scalable applications. With a strong eye for detail and 
+growing expertise in UI/UX design, I create interfaces that are both functional 
+and user-centric. I also bring strong communication and documentation skills, 
+crafting clear technical content for diverse audiences. I bring a collaborative 
+spirit, clear communication, and a design-aware mindset to every project I take on.
         </p>
 
         {/* CTA Buttons */}
@@ -37,15 +37,24 @@ export const Home = () => {
               View Projects
             </button>
           </Link>
-          <a
-            href="/Harithaa_Srii_Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="border border-primary text-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition">
-              Download Resume
-            </button>
-          </a>
+
+         <Link to="/resumes">
+           <button
+             className="border border-primary text-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition"
+              aria-label="Choose resume to download" >
+             Download Resume
+           </button>
+         </Link>
+
+         <Link to="/writing-samples">
+           <button
+             className="border border-primary text-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition"
+             aria-label="View writing samples"
+           >
+             Writing Samples
+           </button>
+         </Link>
+
           <Link to="/contact">
             <button className="border border-primary text-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition">
               Contact Me
@@ -57,7 +66,7 @@ export const Home = () => {
       {/* Optional Quote */}
       <section className="text-center px-4 sm:px-6">
         <p className="italic text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-         “I believe web development is the balance of strong engineering and thoughtful design."
+         “I build digital experiences where solid engineering, user-centered design, and clear communication come together."
         </p>
       </section>
     </div>
