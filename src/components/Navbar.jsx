@@ -7,13 +7,11 @@ export const NavBar = () => {
     { name: "About", path: "/about" },
     { name: "Skills", path: "/skills" },
     { name: "Projects", path: "/projects" },
-    { name: "Writing Samples", path: "/writing-samples" },
-    { name: "Design Work", path: "/design-work" },
     { name: "Contact", path: "/contact" },
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-background px-4 py-3">
+    <nav className="sticky top-0 z-50 bg-background px-4 py-3" role="navigation" aria-label="Main navigation">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Centered Navigation Links */}
         <div className="flex-1 flex justify-center gap-6 flex-wrap">

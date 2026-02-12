@@ -9,7 +9,6 @@ import { DesignWork } from "./Pages/DesignWork";
 import { Contact } from "./Pages/Contact";
 import { NotFound } from "./Pages/NotFound";
 import { ThemeToggle } from "./components/ThemeToggle";
-import {Resume} from "./Pages/Resume";
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
           <Route path="/writing-samples" element={<WritingSamples />} />
           <Route path="/design-work" element={<DesignWork />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/resumes" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

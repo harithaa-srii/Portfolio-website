@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <div className="h-screen bg-background text-foreground overflow-hidden">
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center px-4 md:px-6 py-18 text-center">
+      <section className="flex flex-col items-center justify-center px-4 md:px-6 py-18 text-center" aria-label="Hero section">
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 break-words">
           Hi, I’m Harithaa Srii
         </h1>
@@ -13,7 +13,7 @@ export const Home = () => {
         {/* Typing Animation */}
         <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-6 h-8">
           <TypeAnimation
-            sequence={["Web Developer", 2000, "UI/UX Designer", 2000,"Content/Technical writer",2000]}
+            sequence={["Angular Engineer", 2000, "TypeScript Specialist", 2000, "Full-Stack Minded", 2000]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
@@ -22,51 +22,29 @@ export const Home = () => {
         </h2>
 
         <p className="max-w-3xl text-sm sm:text-base md:text-lg text-muted-foreground mb-8 px-4">
-         I'm a web developer and aspiring technical writer with hands-on experience in 
-building responsive and scalable applications. With a strong eye for detail and 
-growing expertise in UI/UX design, I create interfaces that are both functional 
-and user-centric. I also bring strong communication and documentation skills, 
-crafting clear technical content for diverse audiences. I bring a collaborative 
-spirit, clear communication, and a design-aware mindset to every project I take on.
+        Enterprise-trained Angular + TypeScript engineer. Strong Java foundation. Building scalable frontend systems, optimizing performance, and understanding the full product stack—from UI to backend architecture.
         </p>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 flex-wrap justify-center">
-          <Link to="/projects">
-            <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary/90 transition">
-              View Projects
+          <Link to="/projects" aria-label="View my projects and portfolio work">
+            <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary/90 transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 dark:focus:ring-offset-background" aria-label="View My Work">
+              View My Work
             </button>
           </Link>
 
-         <Link to="/resumes">
-           <button
-             className="border border-primary text-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition"
-              aria-label="Choose resume to download" >
-             Download Resume
-           </button>
-         </Link>
-
-         <Link to="/writing-samples">
-           <button
-             className="border border-primary text-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition"
-             aria-label="View writing samples"
-           >
-             Writing Samples
-           </button>
-         </Link>
-
-          <Link to="/contact">
-            <button className="border border-primary text-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition">
-              Contact Me
+          <Link to="/contact" aria-label="Get in touch with me">
+            <button className="border border-primary text-primary px-6 py-2 rounded-lg hover:bg-primary hover:text-white transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 dark:focus:ring-offset-background" aria-label="Get in Touch">
+              Get in Touch
             </button>
           </Link>
         </div>
       </section>
 
-      {/* Optional Quote */}
+      {/* Tagline */}
       <section className="text-center px-4 sm:px-6">
         <p className="italic text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-         “I build digital experiences where solid engineering, user-centered design, and clear communication come together."
+         "Built at scale. Engineered for impact."
         </p>
       </section>
     </div>
